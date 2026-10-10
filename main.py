@@ -12,17 +12,16 @@ class Ferrari:
     def max_speed(self):
         return "340 km/h"
 
-# Demonstrating Polymorphism
+
 def car_details(car_object):
     print(f"Fuel Type: {car_object.fuel_type()}")
     print(f"Max Speed: {car_object.max_speed()}")
     print("-" * 30)
 
-# Create instances of each class
+
 bmw_car = BMW()
 ferrari_car = Ferrari()
 
-# Call the same function with different object types
 print("BMW Details:")
 car_details(bmw_car)
 
